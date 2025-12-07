@@ -20,7 +20,7 @@
 ![alt text](images/image-3.png)
 
 
-### Generuję plik poda o nazwie my-sql na bazie obrazu mysql w wersji 5.7, ze zmienną środowiskową MYSQL_ROOT_PASSWORD=root z hasłem do bazy danych oraz etykietą app=my-sql, która przyda się później.
+### Generuję plik poda o nazwie my-sql na bazie obrazu mysql w wersji 5.7, ze zmienną środowiskową MYSQL_ROOT_PASSWORD=root z hasłem do bazy danych oraz etykietą app=my-sql, która przyda się później. Dodaję do pliku sekcję nodeSelector z etykietą zone=node-c , aby pod znalazł się na węźle C.
 
 ![alt text](images/image-4.png)
 
