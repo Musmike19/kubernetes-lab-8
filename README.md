@@ -10,12 +10,12 @@
 ![alt text](images/image-1.png)
 
 
-### Generuję plik Deploymentu o nazwie frontend na bazie obrazu nginx i 3 replikami. Dodaję do pliku sekcję nodeSelector z etykietą zone=node-a , aby pody tego Deploymentu znalazły się na węźle A.
+### Generuję plik Deploymentu o nazwie frontend na bazie obrazu nginx i z 3 replikami. Dodaję do pliku sekcję nodeSelector z etykietą zone=node-a , aby pody tego Deploymentu znalazły się na węźle A.
 
 ![alt text](images/image-2.png)
 
 
-###  Generuję plik Deploymentu o nazwie backend na bazie obrazu nginx i 1 repliką. Dodaję do pliku sekcję nodeSelector z etykietą zone=node-b , aby pod tego Deploymentu znalazł się na węźle B.
+###  Generuję plik Deploymentu o nazwie backend na bazie obrazu nginx i z 1 repliką. Dodaję do pliku sekcję nodeSelector z etykietą zone=node-b , aby pod tego Deploymentu znalazł się na węźle B.
 
 ![alt text](images/image-3.png)
 
@@ -60,7 +60,7 @@
 
 
 
-### Testuję poprawność utworzonej polityki. Sprawdzam adres usługi my-sql. Sprawdzam nazwy podów backendu i frontendu. Uruchmiam polecenie curl na wybranych podach frontendu i backendu. Udało nazwiązać połączenie z my-sql tylko przez pod backendu.
+### Testuję poprawność utworzonej polityki. Sprawdzam adres usługi my-sql. Sprawdzam nazwy podów backendu i frontendu. Uruchmiam polecenie curl na wybranych podach frontendu i backendu. Udało się nawiązać połączenie z my-sql tylko przez pod backendu.
 
 ![alt text](images/image-12.png)
 
